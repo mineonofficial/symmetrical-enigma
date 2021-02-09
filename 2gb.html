@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Maszyna losująca • klasa 2GB</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {background:#000;color:#fff;font-family: 'Montserrat', sans-serif;text-align: center;user-select:none;}
+            .start {margin-top: 10px;}
+            .start #generate {cursor:pointer;padding:12px 24px;border:0;outline:0;margin:0;border-radius:5px;font-size:18px;transition-duration:0.5s;background:rgb(196, 196, 196);}
+            .start #generated {display:none;}
+        </style>
+
+    </head>
+    <body>
+        <div class="start">
+            <h1>Maszyna losująca • klasa 2GB</h1>
+            <p>Kliknij przycisk <strong>Losuj</strong> aby wylosować osobę</p>
+            <button id="generate" onclick="gen()">Losuj</button>
+            <br>
+            <h3 id="generator"> </h3>
+            <h3 id="generated"> </h3>
+        </div>
+        <script src="los.js"></script>
+    </body>
+</html>
