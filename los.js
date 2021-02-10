@@ -1,14 +1,3 @@
-<!--
-###################################################################################
-#                                                                                 #
-#                                                                                 #
-#                                  Copyright 2020                                 #
-#                                Michał Stankiewicz                               #
-#                                                                                 #
-#                                                                                 #
-###################################################################################
--->
-
 let body = document.getElementsByTagName('body')[0];
 $(document).keydown(function (event) {
     if (event.keyCode == 123) {
